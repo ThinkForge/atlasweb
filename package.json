@@ -7,6 +7,9 @@
   "author": "ThinkForge <contact@thinkforge.io>",
   "license": "SEE LICENSE IN LICENSE",
   "private": true,
+  "scripts": {
+    "dev": "gulp dev"
+  },
   "dependencies": {
     "bootstrap": "^4.1.0",
     "font-awesome": "4.7.0",

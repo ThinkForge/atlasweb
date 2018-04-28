@@ -11,7 +11,11 @@ header.masthead {
     // background: url('../img/bg-pattern.png'), -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
     // background: url('../img/bg-pattern.png'), linear-gradient(to left, $theme-secondary, $theme-tertiary);
 
-    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    // background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    background-image: url('../img/Source.jpg');
+
+    background-position: center;
+    @include background-cover;
 
     .header-content {
         margin-bottom: 100px;
